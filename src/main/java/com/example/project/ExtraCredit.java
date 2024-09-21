@@ -52,7 +52,7 @@ public class ExtraCredit {
         }
         items = list.get(0)+" \n"+list.get(1)+" \n"+list.get(2)+" \n"+list.get(3)+" \n"+list.get(4);
         //Your scanner object and while loop should go here
-                             
+
         System.out.println(calculateTip(people,percent,cost,items));
         scan.close();
     }
